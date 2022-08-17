@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/legacy-json-app/static/js/main.121c4e93.chunk.js",
-    "main.js.map": "/legacy-json-app/static/js/main.121c4e93.chunk.js.map",
+    "main.js": "/legacy-json-app/static/js/main.50184a23.chunk.js",
+    "main.js.map": "/legacy-json-app/static/js/main.50184a23.chunk.js.map",
     "runtime-main.js": "/legacy-json-app/static/js/runtime-main.87813a90.js",
     "runtime-main.js.map": "/legacy-json-app/static/js/runtime-main.87813a90.js.map",
     "static/css/2.50383158.chunk.css": "/legacy-json-app/static/css/2.50383158.chunk.css",
     "static/js/2.ff943c52.chunk.js": "/legacy-json-app/static/js/2.ff943c52.chunk.js",
     "static/js/2.ff943c52.chunk.js.map": "/legacy-json-app/static/js/2.ff943c52.chunk.js.map",
     "index.html": "/legacy-json-app/index.html",
-    "precache-manifest.3e7d1ff2750c5b68dea312186133bb43.js": "/legacy-json-app/precache-manifest.3e7d1ff2750c5b68dea312186133bb43.js",
+    "precache-manifest.b21edfd82d45be41a5cc7f9dab6c4be9.js": "/legacy-json-app/precache-manifest.b21edfd82d45be41a5cc7f9dab6c4be9.js",
     "service-worker.js": "/legacy-json-app/service-worker.js",
     "static/css/2.50383158.chunk.css.map": "/legacy-json-app/static/css/2.50383158.chunk.css.map",
     "static/js/2.ff943c52.chunk.js.LICENSE.txt": "/legacy-json-app/static/js/2.ff943c52.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.87813a90.js",
     "static/css/2.50383158.chunk.css",
     "static/js/2.ff943c52.chunk.js",
-    "static/js/main.121c4e93.chunk.js"
+    "static/js/main.50184a23.chunk.js"
   ]
 }

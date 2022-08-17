@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a7e6ff856dea72d28acd8c925b88a05",
+    "revision": "2a4ac19c266bc8ee287f86fe6a3ce4ed",
     "url": "/legacy-json-app/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/legacy-json-app/static/js/2.ff943c52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5f31155f3df4e582c5d",
-    "url": "/legacy-json-app/static/js/main.121c4e93.chunk.js"
+    "revision": "7f01f434ff821d1454e8",
+    "url": "/legacy-json-app/static/js/main.50184a23.chunk.js"
   },
   {
     "revision": "61bba0509e451a2b670a",
