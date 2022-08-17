@@ -5,12 +5,12 @@ export const deliveryConfigApi = dashcoreApi.injectEndpoints({
   overrideExisting: false,
   endpoints: (builder) => ({
     getDeliveryConfig: builder.query<GetDeliveryConfigResultType, void>({
-      query: () => `/deliveryconfig`,
+      query: () => `${process.env.PUBLIC_URL}/deliveryconfig`,
       providesTags: ['DeliveryConfig'],
     }),
     updateDeliveryConfig: builder.mutation<void, UpdateDeliveryConfigQueryArgs>({
       query: (queryArgs) => ({
-        url: '/deliveryconfig',
+        url: `${process.env.PUBLIC_URL}/deliveryconfig`,
         method: 'PUT',
         body: queryArgs,
       }),

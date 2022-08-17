@@ -1,5 +1,5 @@
 import { makeStyles, Theme } from '@material-ui/core/styles';
-import Editor, { OnMount } from '@monaco-editor/react';
+import Editor, { OnMount, loader } from '@monaco-editor/react';
 import { editor as EditorApi } from 'monaco-editor/esm/vs/editor/editor.api';
 import React, { useEffect, useRef, useState } from 'react';
 import { monacoJsonConf, SchemaMatcher, schemaMatcher } from './configureMonaco';
@@ -7,9 +7,7 @@ import { ConfirmDialog } from './ConfirmDialog';
 import { EditorToolbar } from './EditorToolbar';
 import { StatusBar } from './statusBar/StatusBar';
 
-// TODO
-// import { configureMonaco } from './configureMonaco';
-// configureMonaco();
+loader.config({ paths: { vs: `${process.env.PUBLIC_URL}/monaco_files/vs` } });
 
 interface StyleProps {
   isFocused: boolean;

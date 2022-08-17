@@ -1,9 +1,5 @@
 import { deliveryConfigJsonSchema } from './schemas/deliveryConfigSchema';
 import { trackingConfigJsonSchema } from './schemas/trackingConfigSchema';
-import { loader } from '@monaco-editor/react';
-
-// executed on module load (first import).
-loader.config({ paths: { vs: 'monaco_files/vs' } });
 
 export const schemaMatcher = {
   DELIVERY_CONFIG: 'delivery_config.json',

@@ -13,6 +13,9 @@ const theme = unstable_createMuiStrictModeTheme();
 
 worker.start({
   onUnhandledRequest: 'bypass',
+  serviceWorker: {
+    url: `${process.env.PUBLIC_URL}/mockServiceWorker.js`,
+  },
 });
 
 ReactDOM.render(
