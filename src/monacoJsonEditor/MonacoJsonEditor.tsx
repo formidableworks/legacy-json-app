@@ -35,8 +35,7 @@ export function MonacoJsonEditor(props: Props): JSX.Element {
   const [editorMarkers, setEditorMarkers] = useState<EditorApi.IMarker[]>([]);
   const classes = useStyles({ isFocused });
 
-  // only update internal prop-derived-state when prop changes.
-  // todo: find a better pattern.
+  // /
   useEffect(() => setEditorValue(value), [value]);
 
   const editorOnMount: OnMount = (editor, monaco) => {
